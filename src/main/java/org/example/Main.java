@@ -52,5 +52,7 @@ public class Main {
             }
         }
         System.out.println("Hello world!");
+        ClassLoader classLoader = ArrayComparator.class.getClassLoader();
+        System.out.println(classLoader);
     }
 }
