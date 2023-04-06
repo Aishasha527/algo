@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -151,7 +152,5 @@ public class LruCache<T> {
         cache.get(2);
 
         cache.put(1, 4);
-
-
     }
 }
